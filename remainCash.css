@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+  margin: 10%;
+}
+
+#calForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+#block {
+  /* display: block; */
+  padding: 5%;
+}
+
+.field {
+  /* display: flex; */
+  margin: 10%;
+}
+
+#submitButton {
+  height: 17vh;
+}
+
+#content {
+  margin: 10%;
+  text-align: center;
+}

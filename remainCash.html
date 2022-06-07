@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- 커스텀 css, js -->
+    <link rel="stylesheet" href="remainCash.css" />
+    <script src="remainCash.js" type="module" defer></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>캐시백 0원 만들기</title>
+  </head>
+
+  <body>
+    <div class="title"><h2>캐시백 모아서 한번에 털어버리자!</h2></div>
+    <nav></nav>
+
+    <form class="calculate-form-box" id="calForm">
+      <div id="block">
+        <div class="field">
+          <label class="label" for="mile">남아 있는 캐시백</label>
+          <div class="control">
+            <input
+              class="input"
+              id="mile"
+              placeholder="남아 있는 캐시백 입력"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="price">결제할 금액</label>
+          <div class="control">
+            <input class="input" id="price" placeholder="결제할 금액 입력" />
+          </div>
+        </div>
+      </div>
+
+      <button class="button" id="submitButton">해줘!</button>
+    </form>
+    <div id="content"></div>
+  </body>
+</html>
