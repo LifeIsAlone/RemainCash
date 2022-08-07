@@ -5,7 +5,7 @@ const submitElement = document.getElementById("submitButton");
 submitElement.addEventListener("click", calculate);
 
 function calculate(event) {
-  console.log("t");
+  // console.log("t");
   event.preventDefault();
   const mile = parseInt(mileElement.value);
   const price = parseInt(priceElement.value);
@@ -19,7 +19,7 @@ function calculate(event) {
 
     for (const usedMile of Array(mile).keys()) {
       const usedMoney = price - usedMile;
-      const gotMile = usedMoney * (10 / 100);
+      const gotMile = usedMoney * (5 / 100);
       const resultMile = mile - usedMile + gotMile;
 
       const usedMoneyZeroCnt = usedMoney.toString().length - 1;
